@@ -45,6 +45,7 @@ def PWM_INIT(freqin):
 	p6 =  machine.PWM(machine.Pin(13),freq=freqin)
 	p7 =  machine.PWM(machine.Pin(14),freq=freqin)
 	p8 =  machine.PWM(machine.Pin(15),freq=freqin)
-
+PWM_INIT(50)
+print("PWM initiated with 50Hz")
 def PWM_SET(servoPin,Duty):
 	servoPin.duty(Duty)
