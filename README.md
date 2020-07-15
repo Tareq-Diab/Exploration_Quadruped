@@ -6,6 +6,16 @@ A quadruped that uses 8 sg90 servos , the robot body itself was 3d printed from 
       ![20200715_202940](https://user-images.githubusercontent.com/28588004/87582693-0dce9000-c6db-11ea-9844-2733e6196eaf.gif)
       <p style="text-align:center;">Learn for free</p>
    </body>
+<html>
+   <head>
+      <title>HTML Document</title>
+   </head>
+
+   <body>
+      ![20200715_202940](https://user-images.githubusercontent.com/28588004/87582693-0dce9000-c6db-11ea-9844-2733e6196eaf.gif)
+      <p style="text-align:center;">Learn for free</p>
+   </body>
+</html>
 
 In the robot layer subroutine was written for all the movements , which was 1-moving forward  2-turning left 3-turning write and a motor check routine was written to ensure that all motors are conected and caliprated corectly.
 
