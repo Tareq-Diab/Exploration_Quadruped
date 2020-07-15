@@ -3,3 +3,4 @@ A quadruped that uses 8 sg90 servos , the robot body itself was 3d printed from 
 In the robot layer subroutine was written for all the movements , which was 1-moving forward  2-turning left 3-turning write and a motor check routine was written to ensure that all motors are conected and caliprated corectly.
 
 On the pc part the interfacing is done using pygame keyboard interface that listen to arrow key strockes and sends the corresponding command via a tcp connection using Socket liberary.
+![robot_map](https://github.com/Tariq96/the_quadruped_bora3y/blob/master/images/image.jpeg)
