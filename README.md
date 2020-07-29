@@ -8,7 +8,7 @@ A quadruped that uses 8 sg90 servos , the robot body itself was 3d printed from 
 
 In the robot layer subroutine was written for all the movements , which was 1-moving forward  2-turning left 3-turning write and a motor check routine was written to ensure that all motors are conected and caliprated corectly.
 
-The following picture shows my own desien 
+The following picture shows my own desien which is not supported yet by the python code.
 ![7](https://user-images.githubusercontent.com/28588004/88741880-05497100-d141-11ea-9b2f-be7bbc9fa7aa.JPG)
 
 On the pc part the interfacing is done using pygame keyboard interface that listen to arrow key strockes and sends the corresponding command via a tcp connection using Socket liberary.
